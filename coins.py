@@ -25,7 +25,7 @@ it back to original orientation.
 '''
 def resizeImage(image, width, height):
     try:
-        imgName = "sample_imgs/_.jpg"
+        imgName = "sample_imgs/resized.jpg"
         resizingImg = Image.open(image)
 
         exif = resizingImg.info['exif']
@@ -33,7 +33,7 @@ def resizeImage(image, width, height):
         newImg = resizingImg.resize((width, height), Image.ANTIALIAS)
         newImg.save(imgName, exif=exif)
     except:
-        imgName = "sample_imgs/_.jpg"
+        imgName = "sample_imgs/resized.jpg"
         resizingImg = Image.open(image)
 
         newImg = resizingImg.resize((width, height), Image.ANTIALIAS)
