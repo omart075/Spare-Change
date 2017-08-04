@@ -29,8 +29,7 @@ The arrays shown are the sizes for each coin found in the image.
       * For every match, add to a total sum
 
 # Dependencies:
-  1. Install OpenCV:
-      * [OpenCV](http://www.pyimagesearch.com/2016/10/24/ubuntu-16-04-how-to-install-opencv/)
+  1. Install [OpenCV](http://www.pyimagesearch.com/2016/10/24/ubuntu-16-04-how-to-install-opencv/)
       
   2. Install numpy:
   
