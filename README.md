@@ -1,6 +1,17 @@
 # Spare-Change
 This Python script uses OpenCV to calculate the amount of change in a given image. Using the left-most coin as a reference object, the size of the other coins are calculated.
 
+This is the output for the coins1 image:
+![Alt text](/sample_imgs/output1.png?raw=true "Script in Action")
+
+This is the output for the coins4 image:
+![Alt text](/sample_imgs/output2.png?raw=true "Script in Action")
+
+This is the output for the coins5 image:
+![Alt text](/sample_imgs/output3.png?raw=true "Script in Action")
+
+The arrays shown are the sizes for each coin found in the image.
+
 
 # Steps in Calculation:
   1. Perform Canny edge detection, dilation, and erosion:
@@ -16,9 +27,6 @@ This Python script uses OpenCV to calculate the amount of change in a given imag
       * Iterate through the coins found
       * Match each size with sizes in dict
       * For every match, add to a total sum
-      
-# Note:
-A resizing of the image is done prior to calculations. If the image is too large, the contours are thrown off leading to inaccurate data.
 
 # Dependencies:
   1. Install OpenCV:
@@ -44,3 +52,6 @@ A resizing of the image is done prior to calculations. If the image is too large
   ```
     pip install imutils
   ```
+  
+# Note:
+A resizing of the image is done prior to calculations. If the image is too large, the contours are thrown off leading to  inaccurate data. Also, further testing is still in progress to see how the code performs in different scenarios.
