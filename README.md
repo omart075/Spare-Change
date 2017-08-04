@@ -10,7 +10,7 @@ This is the output for the coins4 image:
 This is the output for the coins5 image:
 ![Alt text](/sample_imgs/output3.png?raw=true "Script in Action")
 
-The arrays shown are the sizes for each coin found in the image.
+The arrays shown are the sizes for each coin found in the image. Images used are in sample_imgs and are named coins*
 
 
 # Steps in Calculation:
