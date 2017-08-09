@@ -63,4 +63,4 @@ The arrays shown are the sizes for each coin found in the image. Images used are
   ```
   
 # Note:
-A resizing of the image is done prior to calculations. If the image is too large, the contours are thrown off leading to  inaccurate data. Also, images may be rotated due to how the camera was positioned when picture was taken. This is handled as well prior to calculations. Further testing is still in progress to see how the code performs in different scenarios.
+A resizing of the image is done prior to calculations. If the image is too large, the contours are thrown off leading to  inaccurate data. Also, images may be rotated due to how the camera was positioned when picture was taken. This is handled as well, prior to calculations. Further testing is still in progress to see how the code performs in different scenarios.
