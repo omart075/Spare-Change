@@ -1,13 +1,23 @@
 # Spare-Change
 This Python script uses OpenCV to calculate the amount of change in a given image. Using the left-most coin as a reference object, the size of the other coins are calculated.
 
-This is the output for the coins1 image:
+# Examples
+Input:
+![Alt text](/sample_imgs/coins1.png?raw=true "Script in Action")
+
+Output:
 ![Alt text](/sample_imgs/output1.png?raw=true "Script in Action")
 
-This is the output for the coins4 image:
+Input:
+![Alt text](/sample_imgs/coins4.JPG?raw=true "Script in Action")
+
+Output:
 ![Alt text](/sample_imgs/output2.png?raw=true "Script in Action")
 
-This is the output for the coins5 image:
+Input:
+![Alt text](/sample_imgs/coins5.jpg?raw=true "Script in Action")
+
+Output:
 ![Alt text](/sample_imgs/output3.png?raw=true "Script in Action")
 
 The arrays shown are the sizes for each coin found in the image. Images used are in sample_imgs and are named coins*
